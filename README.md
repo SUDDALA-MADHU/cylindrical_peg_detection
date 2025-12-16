@@ -32,16 +32,16 @@ These steps will get you a copy of the project up and running on your local mach
 - OpenCV
 - NumPy
 
-Install dependencies:
+##Install dependencies:
 pip install opencv-python numpy
 
-Running the Project (ROS Command)
-1️⃣ Build the workspace:
-cd ~/ros_ws
-colcon build
-source install/setup.bash
+##Running the Project (ROS Command)
+#1️⃣ Build the workspace:
+-cd ~/ros_ws
+-colcon build
+-source install/setup.bash
 
-2️⃣ Launch the peg detection node:
-ros2 run cylindrical_peg_detection peg_detector_node
+#2️⃣ Launch the peg detection node:
+-ros2 run cylindrical_peg_detection peg_detector_node
 
 ##The node subscribes to the camera image topic and performs real-time cylindrical peg detection.
